@@ -1,6 +1,9 @@
 {
     "rewrites": [
-      { "source": "/api/(.*)", "destination": "https://gurukul-com-server.onrender.com/api/" }
+      {
+        "source": "/api/(.*)",
+        "destination": "https://gurukul-com-server.onrender.com/api/$1"
+      }
     ]
   }
   
