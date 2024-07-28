@@ -1,106 +1,69 @@
-# MERN E-Commerce App
+# GURUKUL.COM
 
-This is a full-stack E-Commerce application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a scalable and robust foundation for building an online shopping platform.
+## Overview
+
+Welcome to GURUKUL.COM, a comprehensive E-Learning Platform developed using the MERN stack (MongoDB, Express.js, React, Node.js). This platform provides users with access to a wide range of educational materials, including video courses, research papers, and downloadable hand notes.
 
 ## Features
 
-1. **User Authentication**: Users can create accounts, log in, and securely authenticate.
-2. **Product Management**: Add, edit, and delete products with details such as name, description, price, and images.
-3. **Shopping Cart**: Users can add products to their shopping cart and proceed to checkout.
-4. **Order Processing**: Secure checkout process and order history for users.
-5. **Admin Panel**: Separate dashboard for administrators to manage products, users, and orders.
-6. **Responsive Design**: The application is designed to be accessible and usable on various devices.
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Git](https://git-scm.com/)
-
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/mern-e-commerce.git
-    ```
-
-2. Change into the project directory:
-
-    ```bash
-    cd mern-e-commerce
-    ```
-
-3. Install dependencies for the server:
-
-    ```bash
-    npm install
-    ```
-
-4. Change into the client directory and install client dependencies:
-
-    ```bash
-    cd client
-    npm install
-    ```
-
-5. Go back to the project root:
-
-    ```bash
-    cd ..
-    ```
-
-6. Create a `.env` file in the root directory with the following variables:
-
-    ```env
-    NODE_ENV=development
-    PORT=5000
-    MONGO_URI=your_mongo_db_uri
-    JWT_SECRET=your_jwt_secret
-    ```
-
-    Replace `your_mongo_db_uri` and `your_jwt_secret` with your MongoDB connection string and a secret key for JWT.
-
-## Usage
-
-1. Start the server:
-
-    ```bash
-    npm run server
-    ```
-
-2. Start the client:
-
-    ```bash
-    npm run client
-    ```
-
-3. Open your browser and visit [http://localhost:3000](http://localhost:3000)
-
-
+- **Video Courses**: Stream and access various educational video courses.
+- **Research Papers**: Browse and read a curated collection of research papers.
+- **Downloadable Notes**: Access and download hand notes and other educational materials.
 
 ## Technologies Used
 
-- **Frontend**:
-  - React.js
-  - Redux (State Management)
-  - Axios (HTTP requests)
+- **MongoDB**: For efficient data management.
+- **Express.js**: For building the backend and designing RESTful APIs.
+- **React**: For building a responsive and interactive frontend.
+- **Node.js**: For server-side logic and handling API requests.
+- **HTML & CSS**: For structuring and styling the web pages.
+- **Postman**: For testing and documenting the APIs.
 
-- **Backend**:
-  - Node.js
-  - Express.js
-  - MongoDB (Database)
-  - Mongoose (Object Data Modeling)
+## Getting Started
 
-- **Authentication**:
-  - JSON Web Tokens (JWT)
+### Prerequisites
+
+- Node.js
+- MongoDB
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/rohitsinghkcodes/gurukul.com.git
+   cd gurukul.com
+   ```
+
+2. Install dependencies for both the backend and frontend:
+
+   ```bash
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+
+3. Create a `.env` file in the `backend` directory and add your MongoDB connection string and other environment variables.
+
+4. Start the development server:
+   ```bash
+   cd backend
+   npm start
+   cd ../frontend
+   npm start
+   ```
+
+## Project Structure
+
+- **Backend**: Contains the server-side code, RESTful APIs, and MongoDB database interactions.
+- **Frontend**: Contains the client-side code built with React, including components, pages, and styling.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
